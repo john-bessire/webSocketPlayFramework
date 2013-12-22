@@ -1,4 +1,21 @@
-This is your new Play application
-=====================================
+After experimenting with WebSockets and mobile devices I ended up with several versions of WebSockets.
 
-This file will be packaged with your application, when using `play dist`.
+If you got here from doing a Google search for Enumerator.imperative[String] it has been deprecated and replaced with:  val (out,channel) = Concurrent.broadcast[String]
+
+
+You can test the following WebSocket clients by modifying the code to connect to: http://www.websocket.org/echo.html
+
+   HTML5 Websockets
+     https://github.com/john-bessire/html5WebSockets
+
+   Appgyver Mobile WebSocket
+      https://github.com/john-bessire/appGyverWebSockets
+
+   Game Closure WebSocket test
+      GameClosure - https://github.com/john-bessire/gameClosureWebSockets
+
+
+The Play Framwork 2.2.0 scala program will echo back anything you send to it.
+  https://github.com/john-bessire/webSocketPlayFramework
+
+
