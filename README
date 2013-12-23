@@ -3,6 +3,7 @@ After experimenting with WebSockets and mobile devices I ended up with several v
 If you got here from doing a Google search for Enumerator.imperative[String] it has been deprecated and replaced with:  val (out,channel) = Concurrent.broadcast[String]
 
 
+
 You can test the following WebSocket clients by modifying the code to connect to: http://www.websocket.org/echo.html
 
    HTML5 Websockets
