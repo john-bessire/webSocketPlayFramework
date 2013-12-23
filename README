@@ -1,10 +1,22 @@
 After experimenting with WebSockets and mobile devices I ended up with several versions of WebSockets.
 
+
+PLAY FRAMEWORK with SCALA
+
+This is a simple program using scala and the Play Framework using WebSockets to echo back anything you send to the program. Tested on Play Framework version 2.2.0.
+
 If you got here from doing a Google search for Enumerator.imperative[String] it has been deprecated and replaced with:  val (out,channel) = Concurrent.broadcast[String]
 
-.
 
-You can test the following WebSocket clients by modifying the code to connect to: http://www.websocket.org/echo.html
+HEROKU Errors
+
+If you get heroku error 501: not supported then add WebSockets to Heroku. This is an experiemtal command  not offically released by Heroku but this command worked on Dec, 23, 2013.
+In heroku type the command: heroku labs:enable websockets -a the-heroku-application-name   
+
+
+WEBSOCKET CLIENTS
+
+You can test the following WebSocket clients by modifying the code to connect to: http://www.websocket.org/echo.html or to wherever you deployed the Play WebSockets example.
 
    HTML5 Websockets
      https://github.com/john-bessire/html5WebSockets
